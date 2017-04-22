@@ -1,8 +1,0 @@
-debug.log
-npm-debug.log
-.idea
-node_modules
-dist
-public
-test/results
-test/coverage

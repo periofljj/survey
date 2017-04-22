@@ -4,10 +4,12 @@ $smFont: 12px;
 
 @import "./components/sectionOne.scss";
 @import "./components/sectionTwo.scss";
+@import "./components/sectionThree.scss";
 
 html {
 	body {
 		min-width: 1280px;
+        background-color: white;
 	}
 }
 
@@ -18,5 +20,9 @@ html {
 
 .section {
 	padding: 20px 20px;
+}
+
+label {
+    font-weight: normal;
 }
 

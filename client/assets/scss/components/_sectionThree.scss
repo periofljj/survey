@@ -1,0 +1,188 @@
+.section-three {
+    .section-title {
+        width: 100%;
+        padding: 0;
+
+        .title {
+            margin-left: 0px;
+            font-size: $mdFont;
+            margin-right: 100px;
+        }
+
+        label {
+            input {
+                vertical-align: sub;
+            }
+            border: 1px solid #ccc;
+            background-color: #d8d7d4;
+        }
+    }
+
+    .section-content {
+        font-size: $smFont;
+        .container-wrapper {
+            width: 100%;
+
+            .left-container {
+                width: 55%;
+                float: left;
+
+                .table-1 {
+                    th {
+                        width: 50%;
+                    }
+
+                    td {
+                        width: 50%;
+                        input {
+                            vertical-align: sub;
+                        }
+
+                        .input-text {
+                            vertical-align: middle;
+                        }
+                    }
+                }
+
+                .left-box-container {
+                    width: 49%;
+                    float: left;
+
+                    .box {
+                        width: 100%;
+                        border: 1px solid #ccc;
+                        background-color: #d8d7d4;
+                        margin-bottom: 6px;
+                        padding-left: 6px;
+
+                        input {
+                            vertical-align: sub;
+                        }
+
+                        .box-title {
+                            text-align: center;
+                        }
+
+                        .box-row {
+                            label {
+                                width: 45%;
+                            }
+                        }
+                    }
+                }
+
+                .right-box-container {
+                    width: 49%;
+                    float: left;
+                    margin-left: 1%;
+                    .box {
+                        width: 100%;
+                        border: 1px solid #ccc;
+                        background-color: #d8d7d4;
+                        margin-bottom: 6px;
+                        padding-left: 6px;
+
+                        input {
+                            vertical-align: sub;
+                        }
+
+                        .box-row {
+                            border-bottom: 1px solid #ccc;
+                        }
+                    }
+                }
+            }
+
+            .right-container {
+                float: left;
+                width: 43%;
+                margin-left: 20px;
+
+                .box {
+                    background-color: #d8d7d4;
+                    border: 1px solid #ccc;
+
+                    .box-title {
+                        padding-left: 10px;
+                        height: 28px;
+                        line-height: 28px;
+                        font-size: $smFont;
+                        border-bottom: 1px solid #ccc;
+                    }
+
+                    .box-content {
+                        padding-left: 10px;
+                        label {
+                            margin-right: 10px;
+                            input {
+                                vertical-align: sub;
+                            }
+                        }
+                    }
+                }
+
+                .table-2 {
+                    th {
+                        width: 60%;
+                    }
+
+                    td {
+                        width: 40%;
+                        input {
+                            vertical-align: sub;
+                        }
+
+                        .input-text {
+                            vertical-align: middle;
+                        }
+                    }
+                }
+
+                .table-3 {
+                    td {
+                        input {
+                            vertical-align: sub;
+                        }
+                    }
+
+                    .col-1 {
+                        width: 40%;
+                        div {
+                            padding-left: 20px;
+                            width: 100%;
+                            label {
+                                width: 40%;
+                            }
+                        }
+                    }
+
+                    .col-2 {
+                        div {
+                            padding-left: 10px;
+                        }
+                        width: 60%;
+                    }
+
+                    .text-center {
+                        text-align: center;
+                    }
+                }
+
+                .table-4 {
+                    .text-center {
+                        text-align: center;
+                    }
+
+                    input[type="radio"], input[type="checkbox"] {
+                        vertical-align: sub;
+                    }
+
+                    input[type="text"] {
+                        width: 100px;
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+    }
+}
