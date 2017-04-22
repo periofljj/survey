@@ -1,0 +1,42 @@
+{
+  "name": "survey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "start": "gulp webpack:dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "browser-sync": "^2.13.0",
+    "cookie-parser": "^1.4.3",
+    "css-loader": "^0.25.0",
+    "del": "^2.2.0",
+    "eslint": "^3.0.1",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-html-replace": "^1.6.0",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev-all": "^0.9.7",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^1.9.1",
+    "istanbul-instrumenter-loader": "^1.0.0",
+    "protractor": "^4.0.4",
+    "protractor-jasmine2-html-reporter": "0.0.6",
+    "raw-loader": "^0.5.1",
+    "serve-index": "^1.8.0",
+    "style-loader": "^0.13.1",
+    "watchify": "^3.7.0",
+    "webpack": "^1.13.1",
+    "webpack-stream": "^3.2.0"
+  }
+}

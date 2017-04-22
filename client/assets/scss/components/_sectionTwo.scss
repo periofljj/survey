@@ -1,0 +1,51 @@
+.section-two {
+	.section-title {
+		width: 100%;
+		padding: 0;
+		.title {
+			margin-left: 0px;
+			font-size: $mdFont;
+			margin-right: 100px;
+		}
+	}
+
+	.section-content {
+		.section-row {
+			width: 100%;
+
+		}
+		.space{
+			width: 100%;
+			height: 6px;
+			background-color: #fff;
+		}
+		.box {
+			margin-bottom: 5px;
+			
+			height: 200px;
+			background-color: #d8d7d4;
+			float: left;
+			font-size: $smFont;
+
+			.box-title {
+				padding: 0 10px;
+				width: 100%;
+				text-align: center;
+				min-height: 30px;
+				line-height: 30px;
+				border-bottom: 1px solid #a6a6a6;
+			}
+
+		}
+		.box-col{
+			div{
+				display: inline-block;
+				input{
+					margin-right:10px;
+				}
+				
+			}
+		}
+			
+	}
+}

@@ -1,0 +1,22 @@
+$lgFont: 16px;
+$mdFont: 14px;
+$smFont: 12px;
+
+@import "./components/sectionOne.scss";
+@import "./components/sectionTwo.scss";
+
+html {
+	body {
+		min-width: 1280px;
+	}
+}
+
+.title {
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+.section {
+	padding: 20px 20px;
+}
+
