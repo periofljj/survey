@@ -7,10 +7,12 @@ $smFont: 12px;
 @import "./components/sectionThree";
 @import "./components/sectionFour";
 @import "./components/sectionFive";
+@import "./components/sectionSeven";
+
 
 html {
 	body {
-		min-width: 1280px;
+		min-width: 1360px;
         background-color: white;
 	}
 }
@@ -26,5 +28,9 @@ html {
 
 label {
     font-weight: normal;
+}
+
+.clear-both {
+    clear: both;
 }
 
