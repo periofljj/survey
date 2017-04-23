@@ -2,9 +2,10 @@ $lgFont: 16px;
 $mdFont: 14px;
 $smFont: 12px;
 
-@import "./components/sectionOne.scss";
-@import "./components/sectionTwo.scss";
-@import "./components/sectionThree.scss";
+@import "./components/sectionOne";
+@import "./components/sectionTwo";
+@import "./components/sectionThree";
+@import "./components/sectionFour";
 
 html {
 	body {
