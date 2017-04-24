@@ -95,8 +95,10 @@ gulp.task('watch', ['clean:dev', 'webpack', 'dev-build', 'scss', 'styles'], func
     watchTask();
 });
 
+gulp.task('webpack:dev:revision', ['clean:dev', 'webpack', 'dev-build', 'scss', 'styles']);
+
 // Dev task
-gulp.task('webpack:dev', function() {
+gulp.task('webpack:dev', ['webpack:dev:revision'], function() {
     browserSync.init({
         port: 8000,
         server: {

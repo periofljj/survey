@@ -8,11 +8,13 @@ $smFont: 12px;
 @import "./components/sectionFour";
 @import "./components/sectionFive";
 @import "./components/sectionSix";
+@import "./components/sectionSeven";
 @import "./components/sectionEight";
+
 
 html {
 	body {
-		min-width: 1280px;
+		min-width: 1360px;
         background-color: white;
 	}
 }
@@ -28,5 +30,9 @@ html {
 
 label {
     font-weight: normal;
+}
+
+.clear-both {
+    clear: both;
 }
 
