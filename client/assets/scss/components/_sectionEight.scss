@@ -53,49 +53,345 @@
             }
         }
 
+
         .box-1{
             width: 59.5%;
             margin-right: 0.5%;
+            height: 180px;
             .box-1-1{
                 width: 100%;
-
+                height: 60px;
                 .box-1-1-1{
-                    width: 59%;
+                    width: 69%;
                     margin-right: 0.5%;
+                    height: 60px;
                     background-color: #d8d7d4;
+                    text-align: center;
                     input{
+                        margin-top: 8px;
                         width: 90%;
                         text-align: center;
                     }
                 }
                 .box-1-1-2{
+                    height: 60px;
                     background-color: #d8d7d4;
-                    width: 20%;
+                    width: 15%;
                     margin-right: 0.5%;
                     .box-content{
                         text-align: center;
                         input{
-                            width: 40px;
+                            margin-top: 8px;
+                            width: 30px;
                         }
                     }
                 }
                 .box-1-1-3{
+                    height: 60px;
                     background-color: #d8d7d4;
-                    width: 19%;
+                    width: 15%;
                     .box-content{
                         text-align: center;
                         input{
-                            width: 40px;
+                            margin-top: 8px;
+                            width: 30px;
                         }
+                    }
+                }
+            }
+            .box-1-2{
+                width: 100%;
+                .box-1-2-1{
+                    padding-left: 10px;
+                    width: 39%;
+                    margin-right: 0.5%;
+                    height: 60px;
+                    background-color: #d8d7d4;
+                    div{
+                        margin-top: 8px;
+                        display: inline-block;
+                        margin-right: 10px;
+                    }
+                    input[type="text"]{
+                        margin-top: 10px;
+                        width: 30px;
+                    }
+                }
+                .box-1-2-2{
+                    padding-left: 10px;
+                    width: 60.5%;
+                    height: 60px;
+                    background-color: #d8d7d4;
+                    div{
+                        display: inline-block;
+                        margin-right: 10px;
+                    }
+                    input[type="text"]{
+                        margin-top: 10px;
+                        width: 30px;
                     }
                 }
             }
 
         }
         .box-2{
+            background-color: #d8d7d4;
             width: 40%;
+            height: 125px;
+            .box-content{
+                margin-left: 10px;
+                .box-col{
+                    div{
+                        width: 24%;
+                    }
+                }
+            }
 
         }
+        .box-3{
+            height: 180px;
+            width: 100%;
+            .box-3-1-1{
+                height: 60px;
+                background-color: #d8d7d4;
+                width: 41%;
+                margin-right:0.5%;
+                text-align: center;
+                input{
+                    margin-top:10px;
+                    width: 90%;
+                }
+            }
+            .box-3-1-2{
+                height: 60px;
+                background-color: #d8d7d4;
+                width: 9%;
+                margin-right:0.5%;
+                text-align: center;
+                input{
+                    margin-top:10px;
+                    width: 30px;
+                }
+            }
+            .box-3-1-3{
+                height: 60px;
+                background-color: #d8d7d4;
+                width: 9%;
+                margin-right:0.5%;
+                text-align: center;
+                input{
+                    margin-top:10px;
+                    width: 30px;
+                }
+            }
+            .box-3-1-4{
+                height: 60px;
+                background-color: #d8d7d4;
+                width: 9%;
+                margin-right:0.5%;
+                .box-content{
+                    margin-left: 10px;
+                }
+            }
+            .box-3-1-5{
+                height: 60px;
+                background-color: #d8d7d4;
+                width: 30%;
+                .box-content-1 {
+                    div{
+                        padding-left: 10px;
+                        display: inline-block;
+                        input{
+                            margin-top:10px;
+                            width: 30px;
+                        }
+                    }
+                }
+                .box-content{
+                    margin-left: 10px;
+                    padding-left: none;
+                    input{
+                        margin-top:3px;
+                        width: 30px;
+                    }
+                    .box-col{
+                        div{
+                            width: 45%;
+                        }
+                    }
+                }
+                
+            }
+            .box-3-1-6{
+                padding-left: 10px;
+                width: 39%;
+                margin-right: 0.5%;
+                height: 60px;
+                background-color: #d8d7d4;
+                div{
+                    margin-top: 8px;
+                    display: inline-block;
+                    margin-right: 50px;
+                }
+                input[type="text"]{
+                    margin-top: 10px;
+                    width: 40px;
+                }
+            }
+            .box-3-1-7{
+                padding-left: 10px;
+                width: 60.5%;
+                height: 60px;
+                background-color: #d8d7d4;
+                div{
+                    display: inline-block;
+                    margin-right: 20px;
+                }
+                input[type="text"]{
+                    margin-top: 20px;
+                    width: 30px;
+                }
+
+            }
+            .box-3-1-8{
+                width: 9%;
+                margin-right: 0.5%;
+                height: 70px;
+                background-color: #d8d7d4;
+                text-align: center;
+                input{
+                    margin-top: 5px;
+                    width: 90%;
+                }
+            }
+            .box-3-1-9{
+                width: 9%;
+                height: 70px;
+                margin-right: 0.5%;
+                background-color: #d8d7d4;
+                padding-top: 5px;
+                div{
+                    padding-left: 5px;
+                }
+            }
+            .box-3-1-10{
+                padding-left: 10px;
+                width: 55%;
+                margin-right: 0.5%;
+                height: 70px;
+                background-color: #d8d7d4;
+                div{
+                    display: inline-block;
+                    margin-right: 20px;
+                }
+                input[type="text"]{
+                    margin-top: 20px;
+                    width: 30px;
+                }
+            }
+            .box-3-1-11{
+                width: 25.5%;
+                height: 70px;
+                background-color: #d8d7d4;
+                .box-col{
+                    margin-left: 10px;
+                    div{
+                        width: 45%;
+                        input[type="text"]{
+                            width: 30px;
+                        }
+                    }
+                }
+            }
+
+
+        }
+        .box-4{
+            .box-4-1{
+                height: 90px;
+            }
+            .box-4-2{
+                height: 90px;
+                width: 8%;
+            }
+            .box-4-3{
+                height: 90px;
+                width: 8%;
+            }
+            .box-4-4{
+                height: 90px;
+                width: 25%;
+                margin-right: 0.5%;
+                .box-content{
+                    .box-col{
+                        div{
+                            width: 30%;
+                        }
+                    }
+                }
+                
+            }
+            .box-4-5{
+                height: 90px;
+                width: 16%;
+                .box-content{
+                    .box-col{
+                        div{
+                            width: 45%;
+                            vertical-align: top;
+                        }
+                    }
+                }
+            
+            }
+            .box-4-6{
+                width: 16%;
+                height: 90px;
+            }
+            .box-4-9{
+                height: 90px;
+            }
+            .box-4-7{
+                width: 39.5%;
+                height: 90px;
+            }
+            .box-4-8{
+                width: 34%;
+                height: 90px;
+                .box-content{
+                    .box-col{
+                        div{
+                            width: 18%;
+                            vertical-align: top;
+                        }
+                    }
+                }
+            }
+        }
+        .box-5{
+            width: 100%;
+            height: 30px;
+            background-color: #d8d7d4;
+            padding-left: 10px;
+            div{
+                margin-top: 5px;
+                display: inline-block;
+                width: 12%;
+            }
+        }
+        .box-6{
+            width: 100%;
+            height: 80px;
+            background-color: #d8d7d4;
+            padding-left: 10px;
+            text-align: center;
+            padding: 10px;
+            textarea{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
 
     }
 
